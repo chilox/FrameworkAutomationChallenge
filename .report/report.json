@@ -1,0 +1,128 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6976407300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Se agrega una Laptop al carro de compras",
+        "description": "",
+        "id": "agregar-un-producto;se-agrega-una-laptop-al-carro-de-compras",
+        "after": [
+          {
+            "result": {
+              "duration": 688551400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 278799400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "El usuario se encuentra en al pagina principal",
+            "match": {
+              "location": "AgregarLaptop.elUsuarioSeEncuentraEnAlPaginaPrincipal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155103800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "el usuario seleciona la seccion Laptos",
+            "match": {
+              "location": "AgregarLaptop.elUsuarioSelecionaLaSeccionLaptos()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1798157800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "el usuario selecciona un producto",
+            "match": {
+              "location": "AgregarLaptop.elUsuarioSeleccionaUnProducto()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7561543500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "presionar el boton Add to cart",
+            "match": {
+              "location": "AgregarLaptop.presionarElBotonAddToCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 944289800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Ingresar a la seccion Cart",
+            "match": {
+              "location": "AgregarLaptop.ingresarALaSeccionCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1094261500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Validar que se agregara de manera correcta al carro de compras",
+            "match": {
+              "location": "AgregarLaptop.validarQueSeAgregaraDeManeraCorrectaAlCarroDeCompras()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@browser"
+          }
+        ]
+      }
+    ],
+    "name": "Agregar un producto",
+    "description": "",
+    "id": "agregar-un-producto",
+    "keyword": "Feature",
+    "uri": "funcional/adquirirProducto.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@funcional"
+      }
+    ]
+  }
+]

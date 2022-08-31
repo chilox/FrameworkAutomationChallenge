@@ -1,0 +1,22 @@
+{
+  "name": "framework-integrado-automation",
+  "version": "1.0.0",
+  "description": "Framework de automatización el cual integra pruebas de serivcio, web y mobile",
+  "main": "index.js",
+  "scripts": {
+    "report": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chilox/FrameworkAutomationChallenge.git"
+  },
+  "author": "Ilich Quiñonez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chilox/FrameworkAutomationChallenge/issues"
+  },
+  "homepage": "https://github.com/chilox/FrameworkAutomationChallenge#readme",
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^1.21.6"
+  }
+}
