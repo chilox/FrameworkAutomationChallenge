@@ -1,6 +1,7 @@
-@put @appium
+@api
 Feature: Put mascota
 
+  @service @put
    Scenario Outline: Modificar una mascota existente
      * def jsonResponse = read('../validatorSchema/schema.json')
     Given url "https://petstore.swagger.io/v2/pet/"

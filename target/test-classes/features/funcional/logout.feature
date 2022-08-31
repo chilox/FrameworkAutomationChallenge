@@ -1,6 +1,7 @@
-@ignore
+@funcional
 Feature: logout de usuario
 
+  @browser @ignore
   Scenario Outline: El usuario cierra la sesion
     Given Iniciar session con <username> y <password>
     When pesiona el boton log out

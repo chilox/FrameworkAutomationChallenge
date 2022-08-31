@@ -1,6 +1,7 @@
-@post
+@api
 Feature: Post pet
 
+  @service @post
   Scenario Outline: Agregar una mascota nueva
     * def jsonResponse = read('../validatorSchema/schema.json')
     Given url "https://petstore.swagger.io/v2/pet/"

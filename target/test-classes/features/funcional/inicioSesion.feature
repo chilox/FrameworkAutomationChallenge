@@ -1,7 +1,7 @@
-@ignore
-
+@funcional
 Feature: Logueo de usuario
 
+  @browser @ignore
   Scenario Outline: Iniciar sesion
     Given Usuario con usuario valido para ingresar
     When El usuario presiona el boton Log in

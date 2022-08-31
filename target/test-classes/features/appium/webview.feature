@@ -1,6 +1,7 @@
-@ignore
+@appium
 Feature: Navegar en la funcionalidades de Webview
 
+  @mobile
   Scenario Outline: Realizar una busqueda en la sección
     Given Ingresar a la sección Webview
     When Seleccionar la casilla de busqueda
@@ -10,6 +11,7 @@ Feature: Navegar en la funcionalidades de Webview
       | valorBusqueda |
       |browser        |
 
+    @mobile
   Scenario: Navegar por las opciones del Menu
     Given Ingresar a la sección Webview
     When  Abrir el menu

@@ -1,7 +1,7 @@
-@ignore @browser
+@funcional
 Feature: Alta de nuevo usuario
   como nuevo usuario quiero generar un perfil para ingresar a la web
-
+  @browser @ignore
   Scenario Outline: Crear un usuario
     Given El usuario se encuentra en al pagina principal de demoblaze.com
     When El usuario presiona el boton Sign up

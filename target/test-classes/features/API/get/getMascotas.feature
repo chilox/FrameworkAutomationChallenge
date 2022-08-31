@@ -1,7 +1,7 @@
-@Get @ignore
+@api
 Feature: Get elementos de la api
 
-  @run
+  @service @get
   Scenario Outline: Obtener mascota existente por medio del Id
     * def jsonResponse = read('../validatorSchema/schema.json')
     Given url "https://petstore.swagger.io/v2/pet/<ID>"
@@ -15,7 +15,7 @@ Feature: Get elementos de la api
       | ID                  | status |
       | 9223372036854265543 | 200    |
 
-  @run
+  @api
   Scenario Outline: Obtener mascota existente por medio del status
     * def jsonResponse = read('../validatorSchema/schema.json')
     Given url "https://petstore.swagger.io/v2/pet/<path>"

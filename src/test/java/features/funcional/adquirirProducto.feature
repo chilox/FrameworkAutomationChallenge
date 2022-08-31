@@ -1,7 +1,7 @@
 @funcional
 Feature: Agregar un producto
 
-  @browser @ignore
+  @browser
   Scenario: Se agrega una Laptop al carro de compras
     Given El usuario se encuentra en al pagina principal
     When el usuario seleciona la seccion Laptos

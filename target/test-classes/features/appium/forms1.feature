@@ -1,6 +1,7 @@
-@ignore
+@appium
   Feature: Sección Forms
 
+    @mobile
     Scenario Outline: Activar un formulario
       Given Ingresar en la sección Forms
       When llenar todos los campos requeridos "<texto>"
