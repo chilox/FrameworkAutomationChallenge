@@ -19,13 +19,13 @@ Appium
 ********************
 Diseñado bajo el patron de diseño **page object model** tenemos la sección
 **pages** donde se almacenan por package los selectores de las paginas testeadas
-----------------
+*********************
 La sección **features** se encuentran al igual que en la sección antes mencionada
 centralizado todos los documentos .feature, en el mismo se encuentra la logina de negocio,
 para los test los cuales dependen de ingresar datos, lo podemos agregar en estos documentos cucumber
 en el apartado **Examples** cabe destacar que se puede hacer uso de mas de un set de datos,
 el sistema ejecutara de maenra automatica todos los set de datos relacionados a scenario
------------------------------------------
+*****************************************
 En la Sección ***runner*** se encuentrn los archivos en los cuales configuramos
 las rutas de ejecución, los **tags** que estaremos usando para realizar la ejecucion de los test   
 ***tags***       
@@ -37,10 +37,10 @@ las rutas de ejecución, los **tags** que estaremos usando para realizar la ejec
 ***Nota importante***: Existen dos Archivos para la ejecucion de las pruebas, **KarateRunner** ejecutas las pruebas de servicio
 y **Testrunner** ejecutas las pruebas funcionales y mobiles
 
-----------------------------------------
+******************************************
 Ya comentamos sobre los archivos de configuración para la ejecución de los test,
  pero en la sección **runner** se encuentra otro paquete, por medio del cual podemos hacer uso de diversos navegadores
------------------------------------
+******************************************
 En sección ***Seleniumgluecode*** nos encontramos una de las estructuras mas importantes,
 aquí se encuentran los test funcionales y mobiles, ademas temenemos
 el archivo **Hooks** que es el posee la configuración que nos permite seleccionar el tipo de navegador a usar y nos genera
