@@ -1,0 +1,379 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4690078400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Se agrega una Laptop al carro de compras",
+        "description": "",
+        "id": "agregar-un-producto;se-agrega-una-laptop-al-carro-de-compras",
+        "after": [
+          {
+            "result": {
+              "duration": 894297900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 244305000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "El usuario se encuentra en al pagina principal",
+            "match": {
+              "location": "AgregarLaptop.elUsuarioSeEncuentraEnAlPaginaPrincipal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121056800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "el usuario seleciona la seccion Laptos",
+            "match": {
+              "location": "AgregarLaptop.elUsuarioSelecionaLaSeccionLaptos()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 674892900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "el usuario selecciona un producto",
+            "match": {
+              "location": "AgregarLaptop.elUsuarioSeleccionaUnProducto()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7689718100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "presionar el boton Add to cart",
+            "match": {
+              "location": "AgregarLaptop.presionarElBotonAddToCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 838982300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Ingresar a la seccion Cart",
+            "match": {
+              "location": "AgregarLaptop.ingresarALaSeccionCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1414061500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Validar que se agregara de manera correcta al carro de compras",
+            "match": {
+              "location": "AgregarLaptop.validarQueSeAgregaraDeManeraCorrectaAlCarroDeCompras()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Agregar un producto",
+    "description": "",
+    "id": "agregar-un-producto",
+    "keyword": "Feature",
+    "uri": "adquirirProducto.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@browser"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3647314400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Iniciar sesion",
+        "description": "",
+        "id": "logueo-de-usuario;iniciar-sesion;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 617052200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 320900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Usuario con usuario valido para ingresar",
+            "match": {
+              "location": "LogIn.usuarioConUsuarioValidoParaIngresar()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137322100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "El usuario presiona el boton Log in",
+            "match": {
+              "location": "LogIn.elUsuarioPresionaElBotonLogIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 201864900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Ingresar el ilich12 usuario",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ilich12",
+                  "offset": 12
+                }
+              ],
+              "location": "LogIn.ingresarElIlichUsuario(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71234400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "ingresar la i123456789 contraseña",
+            "match": {
+              "arguments": [
+                {
+                  "val": "i123456789",
+                  "offset": 12
+                }
+              ],
+              "location": "LogIn.ingresarLaIContraseña(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78079200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "presionar el boton login",
+            "match": {
+              "location": "LogIn.presionarElBotonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21861900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "el usuario se loguea de manera correcta ilich12",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ilich12",
+                  "offset": 40
+                }
+              ],
+              "location": "LogIn.elUsuarioSeLogueaDeManeraCorrectaIlich(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@browser"
+          }
+        ]
+      }
+    ],
+    "name": "Logueo de usuario",
+    "description": "",
+    "id": "logueo-de-usuario",
+    "keyword": "Feature",
+    "uri": "inicioSesion.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@browser"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3079345400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "El usuario cierra la sesion",
+        "description": "",
+        "id": "logout-de-usuario;el-usuario-cierra-la-sesion;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 627756700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 455372400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Iniciar session con ilich12 y i123456789",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ilich12",
+                  "offset": 20
+                },
+                {
+                  "val": "i123456789",
+                  "offset": 30
+                }
+              ],
+              "location": "LogOut.iniciarSessionConIlichYI(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1474475100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "pesiona el boton log out",
+            "match": {
+              "location": "LogOut.pesionaElBotonLogOut()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46319600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "en usuario cierra la sesion correctamente",
+            "match": {
+              "location": "LogOut.enUsuarioCierraLaSesionCorrectamente()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@browser"
+          }
+        ]
+      }
+    ],
+    "name": "logout de usuario",
+    "description": "",
+    "id": "logout-de-usuario",
+    "keyword": "Feature",
+    "uri": "logout.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@browser"
+      }
+    ]
+  }
+]
